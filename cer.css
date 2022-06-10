@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.menu{
+    height: 50px;
+    background-color: rgb(167, 121, 121);
+}
+.q{
+    display: flex;
+    padding-top: 10px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.telmenu{
+    display: none;
+}
+@media(max-width:768px){
+    .menu{
+        display: none;
+    }
+    .telmenu{
+        display: block;
+    }
+}
+#ret{
+    opacity: 0;
+}
+.niz{
+display: flex;
+align-items: center;
+position: fixed;
+top: 20px;
+left: 20px;
+width: 26px;
+height: 26px;
+cursor: pointer;
+z-index: 1;
+}
